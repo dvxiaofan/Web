@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebab9336-c7dc-4c0d-a9aa-1dcd74262723" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/一：HTML基础/HTML 表格/2-7表格属性.html" afterPath="$PROJECT_DIR$/一：HTML基础/HTML 表格/2-7表格属性.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/一：HTML基础/HTML 表格/test.html" afterPath="$PROJECT_DIR$/一：HTML基础/HTML 表格/test.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML 表格/test.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
@@ -45,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2-7表格属性.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2-7表格属性.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML 表格/2-7表格属性.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+            <state relative-caret-position="242">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -71,8 +69,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/一：HTML基础/HTML 表格/1-1基础表格.html" />
-        <option value="$PROJECT_DIR$/一：HTML基础/HTML 表格/2-7表格属性.html" />
         <option value="$PROJECT_DIR$/一：HTML基础/HTML 表格/test.html" />
+        <option value="$PROJECT_DIR$/一：HTML基础/HTML 表格/2-7表格属性.html" />
       </list>
     </option>
   </component>
@@ -242,12 +240,12 @@
       <workItem from="1501664154701" duration="76000" />
       <workItem from="1501664326036" duration="1378000" />
       <workItem from="1501666025471" duration="50000" />
-      <workItem from="1501678976013" duration="3319000" />
+      <workItem from="1501678976013" duration="3478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4823000" />
+    <option name="totallyTimeSpent" value="4982000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,18 +352,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML 表格/2-7表格属性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML 表格/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML 表格/2-7表格属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding />
         </state>
       </provider>
