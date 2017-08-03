@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebab9336-c7dc-4c0d-a9aa-1dcd74262723" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/资料/HTML属性标签大全.pdf" afterPath="$PROJECT_DIR$/资料/HTML属性标签大全.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/一：HTML基础/HTML表单/1-1表单基础.html" afterPath="$PROJECT_DIR$/一：HTML基础/HTML表单/1-1表单基础.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/一：HTML基础/HTML 基础/images/Snip20170802_100.png" afterPath="$PROJECT_DIR$/一：HTML基础/images/Snip20170802_100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/一：HTML基础/HTML 基础/images/Snip20170802_101.png" afterPath="$PROJECT_DIR$/一：HTML基础/images/Snip20170802_101.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/一：HTML基础/HTML 基础/images/Snip20170802_102.png" afterPath="$PROJECT_DIR$/一：HTML基础/images/Snip20170802_102.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/一：HTML基础/HTML 基础/images/Snip20170802_99.png" afterPath="$PROJECT_DIR$/一：HTML基础/images/Snip20170802_99.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/一：HTML基础/HTML 基础/images/icon.png" afterPath="$PROJECT_DIR$/一：HTML基础/images/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/一：HTML基础/HTML 基础/04图像和超链接/4-12锚链接-不同页面.html" afterPath="$PROJECT_DIR$/一：HTML基础/HTML 基础/04图像和超链接/4-12锚链接-不同页面.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/一：HTML基础/HTML 基础/04图像和超链接/4-4超链接.html" afterPath="$PROJECT_DIR$/一：HTML基础/HTML 基础/04图像和超链接/4-4超链接.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/一：HTML基础/HTML 基础/04图像和超链接/4-9锚链接.html" afterPath="$PROJECT_DIR$/一：HTML基础/HTML 基础/04图像和超链接/4-9锚链接.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/一：HTML基础/HTML表单/test.html" afterPath="$PROJECT_DIR$/一：HTML基础/HTML表单/test.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,21 +92,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1-1表单基础.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1-1表单基础.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML表单/1-1表单基础.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="50" column="39" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="39" />
+            <state relative-caret-position="476">
+              <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML表单/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="220">
+              <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -125,8 +133,8 @@
         <option value="$PROJECT_DIR$/一：HTML基础/HTML 表格/2-17表格嵌套.html" />
         <option value="$PROJECT_DIR$/一：HTML基础/HTML 表格/3-1表格布局.html" />
         <option value="$PROJECT_DIR$/一：HTML基础/HTML 表格/test2.html" />
-        <option value="$PROJECT_DIR$/一：HTML基础/HTML表单/test.html" />
         <option value="$PROJECT_DIR$/一：HTML基础/HTML表单/1-1表单基础.html" />
+        <option value="$PROJECT_DIR$/一：HTML基础/HTML表单/test.html" />
       </list>
     </option>
   </component>
@@ -184,6 +192,20 @@
               <option name="myItemId" value="一：HTML基础" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="一：HTML基础" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="HTML表单" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -202,6 +224,10 @@
               <option name="myItemId" value="一：HTML基础" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML 基础" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -218,6 +244,11 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v4.2.3/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/一：HTML基础" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -297,12 +328,12 @@
       <workItem from="1501664326036" duration="1378000" />
       <workItem from="1501666025471" duration="50000" />
       <workItem from="1501678976013" duration="4158000" />
-      <workItem from="1501731277526" duration="7638000" />
+      <workItem from="1501731277526" duration="8152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13300000" />
+    <option name="totallyTimeSpent" value="13814000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -481,18 +512,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML表单/test.html">
+    <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML表单/1-1表单基础.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="476">
+          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML表单/1-1表单基础.html">
+    <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML表单/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="50" column="39" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="39" />
+        <state relative-caret-position="220">
+          <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
           <folding />
         </state>
       </provider>
