@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebab9336-c7dc-4c0d-a9aa-1dcd74262723" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/一：HTML基础/HTML表单/action.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/一：HTML基础/HTML表单/test.html" afterPath="$PROJECT_DIR$/一：HTML基础/HTML表单/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/一：HTML基础/HTML表单/下拉菜单和列表标签.html" afterPath="$PROJECT_DIR$/一：HTML基础/HTML表单/下拉菜单和列表标签.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1-1基础表格.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML 表格/1-1基础表格.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="50" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML 表格/test.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,18 +78,18 @@
       <file leaf-file-name="1-1表单基础.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML表单/1-1表单基础.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            <state relative-caret-position="779">
+              <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML表单/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="56" column="66" lean-forward="true" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
+            <state relative-caret-position="1064">
+              <caret line="56" column="66" lean-forward="false" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
               <folding>
                 <element signature="e#1384#1390#0" expanded="true" />
                 <element signature="e#1390#1396#0" expanded="true" />
@@ -107,11 +98,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="下拉菜单和列表标签.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="下拉菜单和列表标签.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML表单/下拉菜单和列表标签.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="171">
+              <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="action.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML表单/action.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20170801.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML 基础/01基础语法/20170801.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -139,8 +150,9 @@
         <option value="$PROJECT_DIR$/一：HTML基础/HTML 表格/3-1表格布局.html" />
         <option value="$PROJECT_DIR$/一：HTML基础/HTML 表格/test2.html" />
         <option value="$PROJECT_DIR$/一：HTML基础/HTML表单/1-1表单基础.html" />
-        <option value="$PROJECT_DIR$/一：HTML基础/HTML表单/下拉菜单和列表标签.html" />
         <option value="$PROJECT_DIR$/一：HTML基础/HTML表单/test.html" />
+        <option value="$PROJECT_DIR$/一：HTML基础/HTML表单/action.php" />
+        <option value="$PROJECT_DIR$/一：HTML基础/HTML表单/下拉菜单和列表标签.html" />
       </list>
     </option>
   </component>
@@ -233,6 +245,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="HTML 基础" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="一：HTML基础" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML 基础" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01基础语法" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -336,12 +370,12 @@
       <workItem from="1501678976013" duration="4158000" />
       <workItem from="1501731277526" duration="8406000" />
       <workItem from="1501809665615" duration="4406000" />
-      <workItem from="1501988661490" duration="1383000" />
+      <workItem from="1501988661490" duration="2310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19857000" />
+    <option name="totallyTimeSpent" value="20784000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,30 +695,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML表单/下拉菜单和列表标签.html">
+    <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML表单/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="1064">
+          <caret line="56" column="66" lean-forward="false" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
+          <folding>
+            <element signature="e#1384#1390#0" expanded="true" />
+            <element signature="e#1390#1396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML 基础/01基础语法/20170801.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML表单/1-1表单基础.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        <state relative-caret-position="779">
+          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML表单/test.html">
+    <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML表单/action.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="56" column="66" lean-forward="true" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
-          <folding>
-            <element signature="e#1384#1390#0" expanded="true" />
-            <element signature="e#1390#1396#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/一：HTML基础/HTML表单/下拉菜单和列表标签.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
