@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebab9336-c7dc-4c0d-a9aa-1dcd74262723" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/一：HTML基础/案例搭建网页 HTML 结构/css 样式.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/一：HTML基础/案例搭建网页 HTML 结构/img/案例实践.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/一：HTML基础/案例搭建网页 HTML 结构/基础.html" afterPath="$PROJECT_DIR$/一：HTML基础/案例搭建网页 HTML 结构/基础.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/一：HTML基础/案例搭建网页 HTML 结构/img/案例实践.html" afterPath="$PROJECT_DIR$/一：HTML基础/案例搭建网页 HTML 结构/img/案例实践.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,8 +46,8 @@
       <file leaf-file-name="案例实践.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/一：HTML基础/案例搭建网页 HTML 结构/img/案例实践.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="399">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -284,12 +281,12 @@
       <workItem from="1501731277526" duration="8406000" />
       <workItem from="1501809665615" duration="4406000" />
       <workItem from="1501988661490" duration="2792000" />
-      <workItem from="1502160891139" duration="1262000" />
+      <workItem from="1502160891139" duration="1710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22528000" />
+    <option name="totallyTimeSpent" value="22976000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -633,8 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/一：HTML基础/案例搭建网页 HTML 结构/img/案例实践.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="399">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding />
         </state>
       </provider>
