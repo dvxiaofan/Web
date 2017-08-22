@@ -4,21 +4,31 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style type="text/css">
-		li{width: 200px; height: 50px;}
-		.li1{border-top: 2px red solid;}
-		.li2{border-right: 2px green dotted;}
-		.li3{border-bottom: 2px blue dashed;}
-		.li4{border-left: 2px purple double;}
-		.li5{border: 2px orange solid;}
+		.container{
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+			padding-top: 50px;
+			padding-left: 100px;
+		}
+		.content{
+			width: 100px;
+			height: 100px;
+			background-color: purple;
+			padding-top: 30px;
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+		span{background-color: yellow;}
 	</style>
 </head>
 <body>
-    <ul>
-        <li class="li1">第一个li</li>
-        <li class="li2">第二个li</li>
-        <li class="li3">第三个li</li>
-        <li class="li4">第四个li</li>
-        <li class="li5">第五个li</li>
-    </ul>
+    <div class="container">
+      	<div class="content">
+         <span>
+           我是span元素
+          </span>
+		</div>
+    </div>
 </body>
 </html>
