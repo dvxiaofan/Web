@@ -3,31 +3,30 @@
 <head>
 	<meta charset="UTF-8">
 	<title>test</title>
-    <style>
-    *{
-        padding: 0;
-        margin: 0;
-    }
-        .blue{
-            width: 100px;
-            height: 100px;
-            background: blue;
-			position: relative;
-			top: 50px;
-			left: 50px;
-			z-index: 1
-        }
-        .red{
-            width: 100px;
-            height: 100px;
-            background: red;   
-            position: relative;
-            z-index: 0
-        }
-    </style>
+	<style>
+	    *{
+	      margin: 0;
+	      padding:0;
+	    }
+	    .test{
+		     width: 800px;
+		     height: 100px;
+		     background: red;
+		     position: fixed;
+		     left: 0;
+		     right: 0;
+		   	 margin: 0 auto;
+	   }
+	   .out{
+		    width: 100%;
+		    height: 2000px;
+		    background-color: #abcdef;
+	  }
+	</style>
 </head>
 <body>
-    <div class="blue"></div>
-    <div class="red"></div>
+  <div class="out">
+    <div class="test"></div>
+  </div>
 </body>
 </html>

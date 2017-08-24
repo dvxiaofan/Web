@@ -5,24 +5,29 @@
 	<title>position-absolute</title>
 	<link rel="stylesheet" type="text/css" href="css.css">
 	<style type="text/css">
-		.block{
+		.per{
+			/*position: relative;*/
 			width: 80px;
 			height: 80px;
-			line-height: 80px;
-			text-align: center;
-			border: 2px solid black;
+			background: green;
 		}
-		.block:nth-child(2){
+		.block{
 			position: absolute;
-			border-color: red;
-			top: 10px;
-			left: 20px;
+			width: 50%;
+			height: 50px;
+			background: red;
+			/*top: 0;*/
+			/*right: -30px;*/
+			left: 0;
+			right: 0;
+			/*bottom: 0;*/
+			margin: 0 auto;
 		}
 	</style>
 </head>
 <body>
-	<div class="block">A</div>
-	<div class="block">B</div>
-	<div class="block">C</div>
+	<div class="per">
+		<div class="block"></div>
+	</div>		
 </body>
 </html>
