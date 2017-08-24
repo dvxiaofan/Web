@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>position-absolute</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<style type="text/css">
+		.block{
+			width: 80px;
+			height: 80px;
+			line-height: 80px;
+			text-align: center;
+			border: 2px solid black;
+		}
+		.block:nth-child(2){
+			position: absolute;
+			border-color: red;
+			top: 10px;
+			left: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="block">A</div>
+	<div class="block">B</div>
+	<div class="block">C</div>
+</body>
+</html>
