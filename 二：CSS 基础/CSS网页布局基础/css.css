@@ -1,108 +1,134 @@
 body{
-			margin: 0;
-			padding: 0;
-			color: #fff;
+	margin: 0;
+	padding: 0;
+	color: #fff;
 }
 
 .nav{
-			background: #333;
-			width: 100%;
-			height: 60px;
-		}
+	background: #333;
+	width: 100%;
+	height: 60px;
+}
 
 .logo{
-			width: 60%;
-			height: 100%;
-			float: left;
-			line-height: 60px;
-			margin: 0 auto;
+	width: 50%;
+	height: 100%;
+	float: left;
+	line-height: 60px;
+	margin: 0 auto;
 }
 
 img{
-			width: 25%;
-			height: 100%;
-			cursor: pointer;
+	width: 25%;
+	height: 100%;
+	cursor: pointer;
 }
 
 .list{
-			width: 40%;
-			height: 100%;
-			line-height: 60px;
-			float: right;
+	width: 50%;
+	height: 100%;
+	line-height: 60px;
+	float: right;
 }
 
 .list ul{
-			list-style-type: none;
-			margin: 0;
-			/*padding: 0;*/
+	list-style-type: none;
+	margin: 0;
+	/*padding: 0;*/
 }
 
 .list ul li{
-			float: left;
-			margin-right: 50px;
-			width: auto;
+	float: left;
+	margin-right: 50px;
+	width: auto;
 }
 
 .list ul li:nth-child(1){
-			margin-left: 50px;
+	margin-left: 50px;
 }
 
 .list ul li a:link,a:visited{
-			text-decoration: none;
-			color: #fff;
-			font-weight: bold;
-			display: block;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	display: block;
 }
 
 .container{
-			width: 100%;
-			height: 1200px;
-			background: rgb(159,208,224);
+	width: 100%;
+	height: 1200px;
+	background: rgb(159,208,224);
+	color: black;
+	padding-top: 40px;
+}
+
+a{
+	margin-right: 30px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: black;
 }
 
 .left{
-			width: 50%;
-			height: 100%;
-			float: left;
+	width: 50%;
+	height: 100%;
+	float: left;
 }
+
+.left h2{
+	padding-left: 150px;
+}
+
+.left ul{
+	padding-left: 150px;
+	list-style-type: none;
+}
+
+.left span{
+	background: rgb(237,134,138);
+	margin-right: 15px;
+}
+
+.left li{
+	height: 45px;
+	line-height: 45px;
+}
+
 .right{
-			width: 50%;
-			height: 100%;
-			float: right;
+	width: 50%;
+	height: 100%;
+	float: right;
 }
 
 .fotter{
-			width: 100%;
-			height: 80px;
-			line-height: 80px;
-			/*margin: 0 auto;*/
-			text-align: center;
-			background: #333;
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	/*margin: 0 auto;*/
+	text-align: center;
+	background: #333;
 }
 
-.flist{
-	/*width: 80%;
-	height: 100px;
-*/	/*text-align: center;*/
+.fotter ul{
+	list-style-type: none;
+	width: 780px;
+	margin: 0 auto;
+	padding: 0;
 }
 
-.flist ul{
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
+.fotter ul li{
+	float: left;
+	margin-right: 50px;
+	width: 80px;
 }
 
-.flist ul li{
-			float: left;
-			margin-right: 50px;
-			width: auto;
-}
-
-.flist ul li a:link,a:visited{
-			text-decoration: none;
-			color: #fff;
-			font-weight: bold;
-			display: block;
+.fotter ul li a:link,a:visited{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	display: block;
 }
 
 
