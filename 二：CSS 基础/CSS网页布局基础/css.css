@@ -38,13 +38,9 @@ img{
 }
 
 .list ul li{
-	float: left;
+	float: right;
 	margin-right: 50px;
 	width: auto;
-}
-
-.list ul li:nth-child(1){
-	margin-left: 50px;
 }
 
 .list ul li a:link,a:visited{
@@ -59,11 +55,6 @@ img{
 	height: 1200px;
 	background: rgb(159,208,224);
 	color: black;
-	padding-top: 40px;
-}
-
-a{
-	margin-right: 30px;
 }
 
 a:link, a:visited {
@@ -71,24 +62,31 @@ a:link, a:visited {
 	color: black;
 }
 
+.container a{
+	margin-left: 20px;
+}
+
 .left{
-	width: 50%;
+	width: 32%;
 	height: 100%;
 	float: left;
 }
 
+h2{
+	padding-top: 50px;
+}
+
 .left h2{
-	padding-left: 150px;
+	padding-left: 100px;
 }
 
 .left ul{
-	padding-left: 150px;
+	padding-left: 100px;
 	list-style-type: none;
 }
 
 .left span{
 	background: rgb(237,134,138);
-	margin-right: 15px;
 }
 
 .left li{
@@ -97,9 +95,45 @@ a:link, a:visited {
 }
 
 .right{
-	width: 50%;
+	width: 32%;
+	height: 100%;
+	float: left;
+}
+
+.right h2{
+	margin-left: 20px;
+}
+
+.right a{
+	line-height: 43px;
+}
+
+.geduan{
+	width: 5px;
+	height: 100%;
+	background: orange;
+	float: left;
+}
+
+.login{
+	width: 30%;
 	height: 100%;
 	float: right;
+	padding-left: 30px;
+}
+
+input{
+	width: 260px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+#btn{
+	background-color: red;
+	width: 260px;
+	height: 40px;
+	font-size: 20px;
+	color: #fff;
 }
 
 .fotter{
