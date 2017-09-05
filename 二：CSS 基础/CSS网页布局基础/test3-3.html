@@ -30,11 +30,10 @@
 
 		img{
 			height: 70px;
-			width: 200px;
+			width: 220px;
 		}
 
 		.nav{
-			/*width: 30%;*/
 			float: right;
 		}
 
@@ -43,7 +42,7 @@
 		}
 
 		.nav li{
-			width: 70px;
+			margin-right: 50px;
 			font-weight: bold;
 			float: left;
 		}
@@ -52,10 +51,20 @@
 			text-decoration: none;
 		}
 
+		.nav a:hover{
+			color: orange;
+		}
+
 		.container{
 			padding: 0 240px 0 300px;
 			height: 600px;
 			background: #ddd;
+		}
+
+		.container img{
+			margin-top: 80px;
+			width: 600px;
+			height: 400px;
 		}
 
 		.left, .middle, .right{
@@ -67,6 +76,7 @@
 		.middle{
 			width: 100%;
 			background: rgb(242,176,191);
+			text-align: center;
 		}
 
 		.left{
@@ -107,7 +117,9 @@
 		</div>
 	</div>
 	<div class="container">
-		<div class="middle">middle</div>
+		<div class="middle">
+			<img src="http://climg.mukewang.com/590037e00001fab706000400.jpg">
+		</div>
 		<div class="left">left</div>
 		<div class="right">right</div>
 	</div>
