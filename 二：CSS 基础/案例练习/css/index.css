@@ -82,8 +82,66 @@ button{
 	border-radius: 8px;
 }
 
-/*页脚*/
+.main .middle{
+	width: 1000px;
+	margin: 0 auto;
+}
+.main .middle .commen{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	padding-top: 40px;
+}
+.main .middle .commen img{
+	width: 100px;
+	height: 100px;
+}
+.main .middle .commen .comm{
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 20px;
+	color: #7d7c7f;
+}
+.main .middle .clear{
+	clear: both;
+}
+.main .middle .m-middle{
+	font-size: 22px;
+	font-weight: bold;
+	font-style: italic;
+	color: #e19796;
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+}
 
+.main .middle .m-bottom .m-comm {
+	/*width: 33.3%;*/
+	float: left;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.main .middle .m-bottom .m-comm img{
+	width: 310px;
+	height: 260px;
+}
+.main .middle .m-bottom .m-comm .des1{
+	color: #7D7D7F;
+	padding-top: 20px;
+}
+.main .middle .m-bottom .m-comm .des2{
+	color: #BDBDBC;
+	padding-top: 10px;
+}
+
+
+/*页脚*/
+.footer{
+	height: 200px;
+	background: #888;
+}
 
 
 
