@@ -3,6 +3,9 @@
 	padding: 0;
 	font-family: "Microsoft YaHei UI";
 }
+.clear{
+	clear: both;
+}
 
 /*页头*/
 .header{
@@ -84,7 +87,7 @@
 	height: 120px;
 	padding-top: 10px;
 }
-button{
+.bnlayertop button{
 	width: 125px;
 	height: 38px;
 	margin-top: 20px;
@@ -94,14 +97,130 @@ button{
 	border-width: 2px;
 	border-color: rgb(109,109,109);
 }
-button:hover{
+.bnlayertop button:hover{
 	background: #07CBC9;
 }
 
-
 /*ABOUT区*/
+.about{
+	width: 100%;
+}
+.about .a-top{
+	width: 470px;
+	margin: 0 auto;
+	height: 200px;
+	text-align: center;
+}
+.about .title{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-size: 50px;
+	font-weight: bold;
+	color: #000;
+}
+.line{
+	width: 40px;
+	height: 2px;
+	background: #07CBC9;
+	margin: 0 auto;
+}
+.about .des1{
+	margin-top: 30px;
+	font-size: 13px;
+	color: rgb(121,121,121);
+}
+/*about中间部分*/
+.about .a-middle{
+	width: 1200px;
+	margin: 0 auto;
+}
+.about .a-middle .m-left{
+	width: 300px;
+	float: left;
+}
+.about .a-middle .m-left .l-title{
+	font-size: 45px;
+	color: #000;
+}
+.about .a-middle .m-left .wordlayer{
+	width: 400px;
+	height: 220px;
+	background-color: #fff;
+	border: 2px solid grey;
+	opacity: 0.3;
+}
+.about .a-middle .m-left .word1{
+	width: 370px;
+	padding-left: 30px;
+	color: #000;
+	position: absolute;
+	top: 1080px;
+	font-size: 15px;
+}
+.about .a-middle .m-left .word1 button{
+	margin-top: 30px;
+	width: 100px;
+	height: 40px;
+	background: #000;
+	color: #fff;
+	font-size: 16px;
+
+}
+.about .a-middle .m-middle{
+	width: 560px;
+	float: left;
+}
+.about .a-middle .m-middle img{
+	width: 560px;
+	height: 380px;
+	z-index: -1;
+}
+
+.about .a-middle .m-right{
+	width: 300px;
+	float: right
+}
+.about .a-middle .m-right .mright{
+	border: 1px solid #07CBC9;
+	width: 240px;
+	height: 120px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding: 20px 0 0;
+}
+.about .a-middle .m-right .mright .num{
+	font-size: 40px;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 10px;
+}
+.about .a-middle .m-right .mright .people{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.about .a-bottom{
+	width: 100%;
+	height: 400px;
+	background: blue;
+}
+
+
 /*GALLERY区*/
+.gallery{
+	width: 100%;
+	height: 200px;
+	background: green;
+}
 /*页尾*/
+.footer{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background: #07CBC9;
+	color: #fff;
+}
 
 
 
