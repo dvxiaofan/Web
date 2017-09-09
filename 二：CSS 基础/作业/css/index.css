@@ -126,35 +126,36 @@
 }
 .about .des1{
 	margin-top: 30px;
-	font-size: 13px;
+	font-size: 14px;
 	color: rgb(121,121,121);
 }
 /*about中间部分*/
 .about .a-middle{
-	width: 1200px;
+	width: 1000px;
 	margin: 0 auto;
 }
 .about .a-middle .m-left{
-	width: 300px;
+	width: 200px;
 	float: left;
 }
 .about .a-middle .m-left .l-title{
-	font-size: 45px;
+	font-size: 35px;
 	color: #000;
+	text-align: center;
 }
 .about .a-middle .m-left .wordlayer{
-	width: 400px;
+	width: 320px;
 	height: 220px;
 	background-color: #fff;
 	border: 2px solid grey;
 	opacity: 0.3;
 }
 .about .a-middle .m-left .word1{
-	width: 370px;
+	width: 290px;
 	padding-left: 30px;
 	color: #000;
 	position: absolute;
-	top: 1080px;
+	top: 1050px;
 	font-size: 15px;
 }
 .about .a-middle .m-left .word1 button{
@@ -167,43 +168,75 @@
 
 }
 .about .a-middle .m-middle{
-	width: 560px;
+	width: 480px;
 	float: left;
 }
 .about .a-middle .m-middle img{
-	width: 560px;
-	height: 380px;
+	width: 500px;
+	height: 350px;
 	z-index: -1;
 }
 
 .about .a-middle .m-right{
-	width: 300px;
+	width: 280px;
 	float: right
 }
 .about .a-middle .m-right .mright{
 	border: 1px solid #07CBC9;
-	width: 240px;
-	height: 120px;
+	width: 180px;
+	height: 100px;
 	margin-bottom: 30px;
 	text-align: center;
 	padding: 20px 0 0;
 }
 .about .a-middle .m-right .mright .num{
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
 	color: #000;
 	margin-bottom: 10px;
 }
 .about .a-middle .m-right .mright .people{
-	font-size: 20px;
+	font-size: 15px;
 	margin-top: 10px;
 }
 
 .about .a-bottom{
 	width: 100%;
-	height: 400px;
-	background: blue;
+	height: 560px;
+	margin-top: 80px;
 }
+.about .a-bottom img{
+	width: 355px;
+	height: 280px;
+	float: left;
+}
+.about .a-bottom .imgdes{
+	background: #07CBC9;
+	width: 315px;
+	height: 260px;
+	float: left;
+	padding: 20px 10px 0 30px;
+}
+.about .a-bottom .imgdes h2, h5{
+	color: #fff;
+	font-weight: normal;
+}
+.about .a-bottom .imgdes .imgdes-word{
+	font-size: 12px;
+	color: rgb(220,220,220);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.about .a-bottom .imgdes button{
+	width: 80px;
+	height: 30px;
+	margin-left: 105px;
+	margin-top: 25px;
+	background: #000;
+	color: #fff;
+	font-size: 12px;
+}
+
 
 
 /*GALLERY区*/
