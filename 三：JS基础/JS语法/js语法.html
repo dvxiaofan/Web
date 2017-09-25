@@ -49,19 +49,116 @@
 		// 	alert("nonononnonon");
 		// }
 
-		var age = prompt("输入年龄");
+		// var age = prompt("输入年龄");
 
-		console.log(age);
+		// console.log(age);
 
-		if (age > 18) {
-			alert("welcome to here");
-		} else {
-			alert("go out");
+		// if (age > 18) {
+		// 	alert("welcome to here");
+		// } else {
+		// 	alert("go out");
+		// }
+
+		// var phoneNum = prompt("请输入手机号");
+
+		// if (phoneNum.length != 11) {
+		// 	alert("对不起， 您输入的手机号不是11位");
+		// } else {
+		// 	if (isNaN(phoneNum)) {
+		// 		alert("对不起， 您输入手机号不是全数字");
+		// 	} else {
+		// 		alert("号码输入正确");
+		// 	}
+		// }
+
+		// var str = "abc123";
+		// var num = parseInt(str);
+
+		// if (num == NaN) {
+		// 	alert(NaN);
+		// } else if (num == 123) {
+		// 	alert(123);
+		// } else if (typeof num == "number") {
+		// 	alert("number");
+		// } else {
+		// 	alert("str");
+		// }
+
+		// var todayDate = new Date().getDay();
+		// var dateStr = "";
+		// switch (todayDate){
+		// 	case 0:
+		// 	dateStr = ("日")
+		// 	break;
+		// 	case 1:
+		// 	dateStr = ("一")
+		// 	break;
+		// 	case 2:
+		// 	dateStr = ("二")
+		// 	break;
+		// 	case 3:
+		// 	dateStr = ("三")
+		// 	break;
+		// 	case 4:
+		// 	dateStr = ("四")
+		// 	break;			
+		// 	case 5:
+		// 	dateStr = ("五")
+		// 	break;
+		// 	default: 
+		// 	dateStr = ("六")
+		// }
+		// document.write("今天是星期"+dateStr);
+
+		// var numStr = prompt("请输入要查询的业务编号"),
+		// intStr = parseInt(numStr);
+		// var outStr = "";
+		// switch(intStr){
+		// 	case 1 :
+		// 	outStr = "账户余额为9999999";
+		// 	break;
+		// 	case 2 :
+		// 	outStr = "转账金额为66666";
+		// 	break;
+		// 	case 3 :
+		// 	outStr = "信用额度为88888";
+		// 	break;
+		// 	default:
+		// 	outStr = "退出银行系统";
+		// }
+		// document.write(outStr);
+
+		// For循环
+
+		// for (var i = 0; i <= 100; i++) {
+		// 	document.write(i + '<br/>');
+		// }
+
+		// for (var i = 99; i >= 1; i-=2) {
+		// 	document.write(i + '<br/>');
+		// }
+
+
+		var priceStr = prompt("请输入商品价格:"),
+			numStr = prompt("请输入商品数量:"),
+
+			priceInt = parseInt(priceInt),
+			numInt = parseInt(numStr);
+
+			money = priceStr * numStr;
+
+		if (money >= 500) {
+			alert("请您支付" + money * 0.8 + "元");
+		} else{
+			alert("请您支付" + money + "元");
 		}
+		
 
 	</script>
 </body>
 </html>
+
+
 
 
 
