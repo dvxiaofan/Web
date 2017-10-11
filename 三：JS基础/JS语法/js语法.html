@@ -139,20 +139,39 @@
 		// }
 
 
-		var priceStr = prompt("请输入商品价格:"),
-			numStr = prompt("请输入商品数量:"),
+		// var priceStr = prompt("请输入商品价格:"),
+		// 	numStr = prompt("请输入商品数量:"),
 
-			priceInt = parseInt(priceInt),
-			numInt = parseInt(numStr);
+		// 	priceInt = parseInt(priceInt),
+		// 	numInt = parseInt(numStr);
 
-			money = priceStr * numStr;
+		// 	money = priceStr * numStr;
 
-		if (money >= 500) {
-			alert("请您支付" + money * 0.8 + "元");
-		} else{
-			alert("请您支付" + money + "元");
+		// if (money >= 500) {
+		// 	alert("请您支付" + money * 0.8 + "元");
+		// } else{
+		// 	alert("请您支付" + money + "元");
+		// }
+
+		var sourceStr = prompt("请输入成绩:");
+			// sourceStr = parseInt(sourceStr);
+
+		// document.write(sourceStr);
+
+		if (90 <= sourceStr && sourceStr <= 100) {
+			alert("优秀");
+		} else if (80 <= sourceStr && sourceStr && sourceStr <= 89) {
+			alert("良好");
+		} else if (70 <= sourceStr && sourceStr <= 79) {
+			alert("一般");
+		} else if (60 <= sourceStr && sourceStr <= 69) {
+			alert("及格");
+		} else if (0 <= sourceStr && sourceStr <= 59) {
+			alert("不及格");
+		} else {
+			alert("您输入的成绩有误！！！");
 		}
-		
+
 
 	</script>
 </body>
