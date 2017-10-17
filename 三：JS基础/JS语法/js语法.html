@@ -294,18 +294,46 @@
  	// }
   //   alert("猜对了！");
 
-  	var num = 0;
-  	for (var i = 1; i < 10; i++) {
-  		if (i % 5 == 0) {
-  			break;
-  			// continue;
-  		}
-  		num ++;
-  	}
+  	// var num = 0;
+  	// for (var i = 1; i < 10; i++) {
+  	// 	if (i % 5 == 0) {
+  	// 		break;
+  	// 		// continue;
+  	// 	}
+  	// 	num ++;
+  	// }
 
-  	console.log(num);
+  	// console.log(num);
+
+  	// for (var n = 5; n <= 50; n+=5) {
+  	// 	if (n == 20 || n == 30) {
+  	// 		continue;
+  	// 	}
+  	// 	console.log(n)
+  	// }
+
+  	// var pwd,pwdAgain;
+
+  	// 	while(1){
+  	// 		pwd = prompt("请输入密码")
+  	// 		if (pwd == 123456) {
+	  //   		pwdAgain=prompt("请再次输入密码");
+	  //   		break;
+	  //   	}
+  	// 	}
+
+  	var sum = 0;
+  	for (var n=2; n<=100; n+=2) {
+  		if(n == 22 || n == 44 || n == 66 || n == 88) {
+  			continue;
+  		}
+  		sum+=n;
+ 	 	document.write(n + " ")
+  	}
+ 	 document.write("<br>"+sum)
 
 	</script>
+
 
 
 </body>
