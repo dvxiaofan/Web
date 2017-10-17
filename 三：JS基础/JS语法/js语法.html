@@ -242,14 +242,68 @@
 	// document.write("<br>")
 	// }
 
-	for (var i = 1; i <= 5; i++) {
-		document.write("游戏第"+i+"轮，得分：" + "<br>")
-		for (var j = 10; j <= 100; j+=10) {
-			document.write(j+"分"+" ")
-		}
-		document.write("<br>")
-	}
+	// for (var i = 1; i <= 5; i++) {
+	// 	document.write("游戏第"+i+"轮，得分：" + "<br>")
+	// 	for (var j = 10; j <= 100; j+=10) {
+	// 		document.write(j+"分"+" ")
+	// 	}
+	// 	document.write("<br>")
+	// }
 
+	// for (var i = 1; i <= 9; i++) {
+	// 	for (var j = 1; j <= i; j++) {
+	// 		document.write("*")
+	// 	}
+	// 	document.write("<br>")	
+	// }
+
+// 	水仙花是这样的一个数字，它的每个位数上的数字的n次幂之和等于它本身，例如（1*1*1+5*5*5+3*3*3）=153；
+
+// 请在页面中输出1000以内的水仙花数
+
+
+	// for (var i = 1; i <= 9; i++) {
+	// 	for (var j = 0; j <= 9; j++) {
+	// 		for (var m = 0; m <= 9; m++) {
+	// 			var result = i * 100 + j * 10 + m;
+	// 			if (result == i*i*i + j*j*j + m*m*m) {
+	// 				document.write(result+"<br>")
+	// 			}
+	// 		}
+	// 	}
+	// }
+
+	// var i=1,sum=0;
+        
+ //    while(i <= 10) {
+ //        sum+=i;
+ //        	i++;
+ //    }
+ //    document.write(sum);
+
+ 	
+ 	// 	var num = prompt("请输入您猜的数字:");
+ 	// 	while (num != 5) {
+ 	// 	if (num < 5) {
+ 	// 		alert("猜小了！");
+ 	// 		num = prompt("请输入您猜的数字:");
+ 	// 	} else if (num > 5) {
+ 	// 		alert("猜大了!");
+ 	// 		num = prompt("请输入您猜的数字:");
+ 	// 	} 
+ 	// }
+  //   alert("猜对了！");
+
+  	var num = 0;
+  	for (var i = 1; i < 10; i++) {
+  		if (i % 5 == 0) {
+  			break;
+  			// continue;
+  		}
+  		num ++;
+  	}
+
+  	console.log(num);
 
 	</script>
 
