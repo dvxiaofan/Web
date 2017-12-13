@@ -25,23 +25,39 @@
 		// document.write(moneys);
 
 
-   		function arrReverse(arr) {
-   			var newArr=[];
-   			var size;
-   			var len = arr.length;
-   			for (var i = 0; i < len; i++) {
-   				size = newArr.push(arr.pop());
-   			}
-   			return newArr;
-   		}
-   		document.write(arrReverse([1,2,3,4,5,6,7,8]));
+   		// function arrReverse(arr) {
+   		// 	var newArr=[];
+   		// 	var size;
+   		// 	var len = arr.length;
+   		// 	for (var i = 0; i < len; i++) {
+   		// 		size = newArr.push(arr.pop());
+   		// 	}
+   		// 	return newArr;
+   		// }
+   		// document.write(arrReverse([1,2,3,4,5,6,7,8]));
+
+   		// var arr = [1,2,3,4,5,6];
+   		// var str = arr.join(";");
+   		// console.log(str);
+   		// console.log(typeof(str));
+   		// console.log(arr);
+
+   		var input;
+    	var arr=[ ];
+
+    	while(input!="-1"){
+       		input=Number(prompt("请输入您想排序的数字"));
+        	arr.push(input);
+     	}
+     	arr.pop();
+
+    	var newArr = arr.sort(function(a,b){return b-a}); //补充代码
+		document.write(arr);
 
 
 	</script>
 </body>
 </html>
-
-
 
 
 
