@@ -29,13 +29,48 @@
 		// var news = nums.sort(function(a,b){return a-b});
 		// console.log(news);
 
-		var arr1 = [1,2,3];
-		var arr2 = [5,6,7];
-		var arr3 = ["a","b","c"];
-		var arrNew = arr1.concat(arr2,arr3);
+		// var arr1 = [1,2,3];
+		// var arr2 = [5,6,7];
+		// var arr3 = ["a","b","c"];
+		// var arrNew = arr1.concat(arr2,arr3);
 
-		document.write(arrNew)
+		// // document.write(arrNew)
 
+		// var arr4 = arrNew.slice(2,8);
+		// document.write(arr4);
+
+		// var a = [1,"yes",4],
+		// 	b;
+		// // b = [].concat(a);
+		// b = a.slice(0);
+		// // document.write(b)
+		// console.log(b)
+
+		// var arr = ["a","b","c","d","e","f","g"];
+		// // var newArr = arr.splice(3,2);
+
+		// // var newArr = arr.splice(3,0,"oo","hehe","ll");
+
+		// var newArr = arr.splice(3,2,"x","y");
+
+		// console.log(arr);
+		// console.log(newArr);
+
+		var nums = [1,7,3,1,5,3,7,3,7];
+		// var pos = nums.indexOf(7,2);
+		// console.log(pos)
+
+		function arrIndexOf(arr, value) {
+			for (var i = 0; i < arr.length; i++) {
+				if (arr[i] === value) {
+					return i;
+				}
+			}
+			return -1;
+		}
+
+		var poss = arrIndexOf(nums, 3);
+		console.log(poss);
 
 	</script>
 </body>

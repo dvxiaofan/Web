@@ -42,16 +42,35 @@
    		// console.log(typeof(str));
    		// console.log(arr);
 
-   		var input;
-    	var arr=[ ];
+  //  		var input;
+  //   	var arr=[ ];
 
-    	while(input!="-1"){
-       		input=Number(prompt("请输入您想排序的数字"));
-        	arr.push(input);
-     	}
-     	arr.pop();
+  //   	while(input!="-1"){
+  //      		input=Number(prompt("请输入您想排序的数字"));
+  //       	arr.push(input);
+  //    	}
+  //    	arr.pop();
 
-    	var newArr = arr.sort(function(a,b){return b-a}); //补充代码
+  //   	var newArr = arr.sort(function(a,b){return b-a}); //补充代码
+		// document.write(arr);
+
+		// var arr = [1,2,3,4,5,6,7];
+		// var arr1 = arr.splice(1,0,"hello","world");
+		// // console.log(arr.splice(1,0,"hello","world"));
+		// console.log(arr1);
+		// console.log(arr);
+
+		// var arr = ["good", "good", "study", "day","day","up"];
+		// console.log(arr.splice(2,1,"eat"));
+		// console.log(arr);
+
+		var input = prompt("请输入字符");
+		var arr=[];
+		while(input != "-1") {
+			arr.push(input);
+			var input = prompt("请输入字符");
+		}
+		arr.splice(0,2,"hello");
 		document.write(arr);
 
 
