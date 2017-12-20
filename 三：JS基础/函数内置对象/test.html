@@ -77,19 +77,21 @@
   //   	var strKey= str.charCodeAt(str.indexOf("a"));
   //  		document.write(strKey);
 
-  		var words = prompt("请输入一句话");
-  		var num = words.indexOf("草");
-  		var num2 = 0;
-  		if (num === -1) {
-			document.write("敏感字‘草’首次出现的位置是"+num);
-  		} else {
-  			for (var i = 0; i < words.length; i+=num2) {
-  				num2 = words.indexOf("草",num+i);
-  				document.write("敏感字‘草’在"+num2+"位置被发现"+"<br>");
-  			}
-  			document.write("敏感字‘草’首次出现的位置是"+num);
-  		}  		
+  	// 	var words = prompt("请输入一句话");
+  	// 	var num = words.indexOf("草");
+  	// 	var num2 = 0;
+  	// 	if (num === -1) {
+			// document.write("敏感字‘草’首次出现的位置是"+num);
+  	// 	} else {
+  	// 		for (var i = 0; i < words.length; i+=num2) {
+  	// 			num2 = words.indexOf("草",num+i);
+  	// 			document.write("敏感字‘草’在"+num2+"位置被发现"+"<br>");
+  	// 		}
+  	// 		document.write("敏感字‘草’首次出现的位置是"+num);
+  	// 	}  		
   		
+  		var str = "while not knowing why it is so passionately devoted.";
+  		console.log(str.slice(-20,-12));
 
 	</script>
 </body>
