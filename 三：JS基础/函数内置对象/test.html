@@ -100,19 +100,38 @@
    	// 	document.write("<br/>");
    	// 	document.write(str.substr(12,5));
 
-   		var str = "JavaScript 是属于网络的脚本语言！JavaScript 被数百万计的网页用来改进设计、验证表单、检测浏览器、创建cookies，以及更多的应用。JavaScript 是因特网上最流行的脚本语言。JavaScript很容易使用！你一定会喜欢它的!";
-   		var num = 0;
+   		// var str = "JavaScript 是属于网络的脚本语言！JavaScript 被数百万计的网页用来改进设计、验证表单、检测浏览器、创建cookies，以及更多的应用。JavaScript 是因特网上最流行的脚本语言。JavaScript很容易使用！你一定会喜欢它的!";
+   		// var num = 0;
 
-   		for (var i = 0; i < str.length; i++) {
-   			if (str[i] == 'J') {
-   				if (str.substr(i,10) == 'JavaScript') {
-   					num++;
-   					document.write("JavaScript第"+num+"次出现是在"+i+"的位置"+"<br/>");
-   				}
-   			}
-   		}
-   		document.write("JavavScript这个字符在这段话中总共出现了"+num+"次");
+   		// for (var i = 0; i < str.length; i++) {
+   		// 	if (str[i] == 'J') {
+   		// 		if (str.substr(i,10) == 'JavaScript') {
+   		// 			num++;
+   		// 			document.write("JavaScript第"+num+"次出现是在"+i+"的位置"+"<br/>");
+   		// 		}
+   		// 	}
+   		// }
+   		// document.write("JavavScript这个字符在这段话中总共出现了"+num+"次");
 
+   		// var eName = prompt("请输入登录邮箱:");
+   		// var pos = eName.indexOf("@");
+   		// var name = eName.substr(0,pos);
+   		// var fileName = eName.substr(pos+1);
+
+   		// document.write("邮箱的用户名是:"+name+"<br>");
+   		// document.write("登录邮箱的域名是："+fileName+"邮箱");
+
+	 //   	var str="a/b/c/d/e/f/g/h";
+		// var arr= str.split("/");
+		// var strNew=arr.join("-");
+	 //    document.write(arr);
+	 //    document.write("<br/>");
+	 //    document.write(strNew);
+
+	 	var pNum = prompt("请输入手机号码：");
+	 	var newNum = pNum.replace(pNum.substr(0,7),"*******");
+
+	 	document.write(newNum);
 
 	</script>
 </body>

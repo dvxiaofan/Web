@@ -94,16 +94,30 @@
 		// console.log(str.substr(-5,5));
 		// console.log(str.substr(-5,-3));
 
-		var url = "http://www.baidu.com/name.txt";
+		// var url = "http://www.baidu.com/name.txt";
 
-		function getFileFormat(url) {
-			var pos = url.lastIndexOf(".");
-			return url.substr(pos+1);
-		}
-		// var formatName = getFileFormat(url);
-		// document.write(formatName);
-		var picFile = "ruouo4355.jpg";
-		document.write(getFileFormat(picFile));
+		// function getFileFormat(url) {
+		// 	var pos = url.lastIndexOf(".");
+		// 	return url.substr(pos+1);
+		// }
+		// // var formatName = getFileFormat(url);
+		// // document.write(formatName);
+		// var picFile = "ruouo4355.jpg";
+		// document.write(getFileFormat(picFile));
+
+		// var str = 'helo-xiaofan-nihao';
+		// var arr = str.split("-");
+		// var date = '2018/02/26';
+		// var arr2 = date.split("/");
+
+		// console.log(arr);
+		// console.log(arr2);
+
+		var tel = '010-23255555,400-600-88888';
+		var newTel = tel.replace(',',"  ");
+
+		console.log(newTel);
+
 	</script>
 </body>
 </html>
