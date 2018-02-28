@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DOM基础</title>
+</head>
+<body>
+	<div class="box" id="box">
+		元素
+	</div>
+	<ul id="list1">
+		<li>前端</li>
+		<li>后端</li>
+		<li>移动端</li>
+	</ul>
+	<ol id="list2">
+		<li>pingguo</li>
+		<li>anzhuo</li>
+	</ol>
+	<script>
+		var box = document.getElementById('box');
+		// console.log(box);
+		var lis = document.getElementsByTagName('li');
+		console.log(lis.length);
+		var lis2 = document.getElementById('list1').getElementsByTagName('li');
+		console.log(lis2.length);
+	</script>
+</body>
+</html>
