@@ -11,7 +11,9 @@
 	<ul id="list1">
 		<li>前端</li>
 		<li>后端</li>
-		<li>移动端</li>
+		<li><b>移动端</b></li>
+		<li>飞机端</li>
+		<li>坦克端</li>
 	</ul>
 	<ol id="list2">
 		<li>pingguo</li>
@@ -19,11 +21,28 @@
 	</ol>
 	<script>
 		var box = document.getElementById('box');
+		box.style.color = "#f00";
+		box.style.fontWeight = "bold";
 		// console.log(box);
 		var lis = document.getElementsByTagName('li');
-		console.log(lis.length);
+		// console.log(lis.length);
 		var lis2 = document.getElementById('list1').getElementsByTagName('li');
-		console.log(lis2.length);
+		// console.log(lis2.length);
+		for (var i = 0; i < lis2.length; i++) {
+			// lis2[i].style.color = "#00f";
+			// // console.log(lis2[i]);
+			// if (i==0) {
+			// 	lis2[i].style.backgroundColor = "#ccc";
+			// } else if (i==1) {
+			// 	lis2[i].style.backgroundColor = "#999";
+			// } else if (i==2) {
+			// 	lis2[i].style.backgroundColor = "#666";
+			// } else {
+			// 	lis2[i].style.backgroundColor = "#333";
+			// }
+			console.log(lis2[i].innerHTML);
+			lis2[i].innerHTML+="课程";
+		}
 	</script>
 </body>
 </html>
