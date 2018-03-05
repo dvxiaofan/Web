@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>键盘</title>
+</head>
+<body>
+	<p class="text">您还可以输入<span><em id="count">30</em>/30</span></p>
+	<div class="input">
+		<textarea name="" id="text" cols="70" rows="4"></textarea>
+	</div>
+	<script>
+		var text = document.getElementById('text');
+		var total = 30;
+		var count = document.getElementById('count');
+
+		document.onkeyup = function() {
+			var len = text.value.length;
+			var allow = total - len;
+			if (allow < 0) {
+				count.innerHTML = 0;
+			} else {
+				count.innerHTML = allow;
+			}
+		}
+	</script>
+</body>
+</html>

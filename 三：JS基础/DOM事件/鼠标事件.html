@@ -11,12 +11,32 @@
 			width: 200px;
 			height: 200px;
 			background: #f00;
+			overflow: auto;
 		}
 	</style>
 </head>
 <body>
 	<div class="box" id="box">
-		框框
+		<p>2</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
+		<p>6</p>
 	</div>
 	<script>
 		var box = document.getElementById('box');
@@ -36,7 +56,10 @@
 			console.log("sizechange");
 		}
 		window.onscroll = function(){
-			console.log("scroll");
+			console.log("windowScroll");
+		}
+		box.onscroll = function(){
+			console.log("boxScroll");
 		}
 
 	</script>
