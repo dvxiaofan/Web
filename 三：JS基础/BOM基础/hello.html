@@ -6,8 +6,9 @@
 </head>
 <body>
 	<div id="box">
-		<span id="text">iphone</span>
-		<input type="button" value="删除" id="btn">
+		<!-- <span id="text">iphone</span> -->
+		<input type="button" value="关闭" id="btn">
+		
 	</div>
 	<script>
 		// var age = 18;
@@ -25,7 +26,10 @@
 
 		// var pro = window.prompt("您的星座是：", "狮子座");
 		// console.log(pro);
-		window.open("hello.html","newWindow","width = 400, height = 300, left = 130, top = 230,toolbar = no, menubar = no, scrollbars = no, location = no, status = no");
+		var btn = document.getElementById('btn');
+		btn.onclick = function(){
+			window.close();
+		}
 
 	</script>
 </body>
