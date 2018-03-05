@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>window</title>
+</head>
+<body>
+	<div id="box">
+		<span id="text">iphone</span>
+		<input type="button" value="删除" id="btn">
+	</div>
+	<script>
+		// var age = 18;
+		// function sayAge() {
+		// 	alert("我"+age);
+		// }
+		// sayAge();
+		var btn = document.getElementById('btn');
+		btn.onclick = function(){
+			var result = window.confirm("确定要删除吗？");
+			if (result) {
+				document.getElementById('text').style.display = "none";
+			}
+		}
+	</script>
+</body>
+</html>
