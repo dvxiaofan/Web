@@ -1,9 +1,4 @@
-/*
-* @Author: xiaofan
-* @Date:   2018-03-07 10:14:32
-* @Last Modified by:   xiaofan
-* @Last Modified time: 2018-03-07 11:38:31
-*/
+
 
  // 封装 document.getElementById()方法
  function byId(id) {
@@ -19,10 +14,14 @@
  	 next = byId("next"),
  	 len = pics.length;
 
+
+// 滚动图片
+slideImg();
+
 function slideImg() {
 	var main = byId("main");
 
-	// 划过图片时清除	
+	// 划过图片时清除滚动	
 	main.onmouseover = function () {
 		if (timer) clearInterval(timer);
 	}
@@ -71,8 +70,6 @@ function changeImg() {
 	dots[index].className = "active";
 }
 
-// 划过图片
-slideImg();
 
 
 
