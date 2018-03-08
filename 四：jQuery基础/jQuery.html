@@ -17,16 +17,52 @@
 			// console.log(DOMObject);
 			// console.log(jQueryObject);
 
-			var div = $('<<div>hello</div>');
-			console.log(div);
+			// var div = $('<<div>hello</div>');
+			// console.log(div);
 
-			console.log($('div'));
+			// console.log($('div'));
 
-			div.appendTo('body');
+			// div.appendTo('body');
 
-			console.log($('div'));
+			// console.log($('div'));
+
+			var link1 = $('<a>', {
+				text:'xiaofan baidu',
+				title:'goto baidu',
+				href:'https://www.baidu.com',
+				target:'_blank'
+			});
+
+			link1.appendTo('body');
+
+			var link2 = $('<a>xiaofan baidu</a>').attr({
+				title:'goto baidu',
+				href:'https://www.baidu.com',
+				target:'_blank'
+			});
+
+			link2.appendTo('body');
 		})
 	</script>
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
