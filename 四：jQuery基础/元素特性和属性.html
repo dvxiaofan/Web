@@ -9,7 +9,8 @@
 		<input type="checkbox" id="chex" tabindex="1" style="width: 50px; height: 50px;"
 		title="chex this" description = "just a checkbox" checked="true">
 	</div>
-
+	
+	<div class="box" id="demo">div</div>
 
 	
 
@@ -17,7 +18,7 @@
 
 	<script>
 		$(function () {
-			var checkbox = document.getElementById('chex');
+			// var checkbox = document.getElementById('chex');
 
 			// console.log(checkbox.checked);
 			// console.log(checkbox.getAttribute("checked"));
@@ -29,10 +30,35 @@
 
 			// checkbox.description = "new description";
 
-			checkbox.setAttribute("description", "newnew description");
+			// checkbox.setAttribute("description", "newnew description");
 
-			console.log(checkbox.description);
-			console.log(checkbox.getAttribute("description"));
+			// console.log(checkbox.description);
+			// console.log(checkbox.getAttribute("description"));
+
+			var element = $("#demo");
+
+			element.css('width', 100);
+			element.css({
+				'background-color': 'blue',
+				height:100,
+				border: '10px solid #000',
+				margin: 20,
+				padding: 10,
+				// width: '10em'
+
+			});
+
+			element.css('height', function(index, value) {
+				return parseInt(value, 10) + 30;
+			})
+
+			console.log(element.width());
+			console.log(element.height());
+			console.log(element.innerWidth());
+			console.log(element.innerHeight());
+			console.log(element.outerWidth());
+			console.log(element.outerHeight());
+
 		})
 	</script>
 </body>
