@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>元素特性和属性</title>
+</head>
+<body>
+	<div>
+		<input type="checkbox" id="chex" tabindex="1" style="width: 50px; height: 50px;"
+		title="chex this" description = "just a checkbox" checked="true">
+	</div>
+
+
+	
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+	<script>
+		$(function () {
+			var checkbox = document.getElementById('chex');
+
+			console.log(checkbox.checked);
+			console.log(checkbox.getAttribute("checked"));
+
+			checkbox.setAttribute("checked", false);
+
+			console.log(checkbox.checked);
+			console.log(checkbox.getAttribute("checked"));
+		})
+	</script>
+</body>
+</html>
