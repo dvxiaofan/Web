@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p id="example">
+		hello heh lkjalfjl jlajsfl alfj lakjf jalfkj alkjfl ajl jfl 
+		adkjflajfl ajlfj a;lfj lakjfl kja 
+		asflj alsjfl kajdf 
+		aslfj asldjfl j 
+	</p>
+
+
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script>
+		$(function() {
+
+			// // 2级事件模型
+			// var element = document.getElementById('example');
+
+			// element.addEventListener('click', function(enent){
+			// 	console.log("click1");
+			// }, false);
+			// element.addEventListener('click', function(enent){
+			// 	console.log("click2");
+			// }, false);
+			// element.addEventListener('click', function(enent){
+			// 	console.log("click3");
+			// }, false);
+
+			// $('p').on('click', null, null, function(event){
+			// 	console.log("I Click");
+			// })
+
+			// 使用链式函数添加多个事件
+			$('p').on('click', function(event){
+				console.log("I Click 1");
+			}).on('click', function (event) {
+				console.log("I Click 2");
+			}).on('click', function (event) {
+				console.log("I Click 3");
+			})
+
+			// 移除事件
+			$('p').off('click');
+
+		});
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
