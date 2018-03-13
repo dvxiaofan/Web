@@ -12,6 +12,21 @@
 		aslfj asldjfl j 
 	</p>
 
+	<h2>标题</h2>
+	<ul>
+		<li class="item1">新闻列表1</li>
+		<li class="item2">新闻列表2</li>
+		<li class="item3">新闻列表3</li>
+		<li class="item4">新闻列表4</li>
+		<li class="item5">新闻列表5</li>
+		<li class="item6">新闻列表6</li>
+		<li class="item7">新闻列表7</li>
+		<li class="item8">新闻列表8</li>
+		<li class="item9">新闻列表9</li>
+	</ul>
+
+	<button id="all">全部标记已读</button>
+
 
 
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -36,16 +51,26 @@
 			// })
 
 			// 使用链式函数添加多个事件
-			$('p').on('click', function(event){
-				console.log("I Click 1");
-			}).on('click', function (event) {
-				console.log("I Click 2");
-			}).on('click', function (event) {
-				console.log("I Click 3");
+			// $('p').on('click', function(event){
+			// 	console.log("I Click 1");
+			// }).on('click', function (event) {
+			// 	console.log("I Click 2");
+			// }).on('click', function (event) {
+			// 	console.log("I Click 3");
+			// })
+
+			// // 移除事件
+			// $('p').off('click');
+
+			$('li').on('mardAsRead', function (event) {
+				console.log('已读 %o', $(this));
+			}).on('click', function () {
+				$(this).trigger('mardAsRead');
 			})
 
-			// 移除事件
-			$('p').off('click');
+			$('#all').on('click', function (event) {
+				$('li').trigger('mardAsRead');
+			})
 
 		});
 	</script>
