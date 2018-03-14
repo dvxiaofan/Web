@@ -6,7 +6,12 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="back1"></div>
+	<div class="back1">
+		<!-- <button class="login" id="login">登录</button>
+		<button class="regist" id="regist">注册</button> -->
+		<a href="#" class="loginLink" id="loginLink">登录</a>
+		<a href="#" class="regist" id="regist">注册</a>
+	</div>
 	<div class="back2"></div>
 	<div class="back3"></div>
 	<div class="back4"></div>
@@ -20,8 +25,28 @@
 		<!-- 弹出层关闭按钮 -->
 		<div class="layer-close" id="layer-close">×</div>
 		<!-- 内容区域 -->
-		<div class="layer-content" id="layer-content"></div>
+		<div class="layer-content" id="layer-content">
+			<div class="login">
+				<h4 class="title">登 录</h4>
+				<div class="item">
+					<label>帐号</label>
+					<input type="text" class="input" id="username" name="username">
+					<p class="error-msg"></p>
+				</div>
+				<div class="item">
+					<label>密码</label>
+					<input type="text" class="input" id="password" name="password">
+				</div>
+				<div class="item">
+					<input type="submit" class="submit" id="loginSubmitBtn" value="填好了">
+				</div>
+			</div>
+		</div>
 	</div>
+
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="index.js"></script>
 </body>
 </html>
 
