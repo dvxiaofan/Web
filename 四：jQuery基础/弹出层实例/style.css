@@ -2,7 +2,7 @@
 * @Author: xiaofan
 * @Date:   2018-03-14 15:56:57
 * @Last Modified by:   xiaofan
-* @Last Modified time: 2018-03-14 17:01:39
+* @Last Modified time: 2018-03-14 21:42:00
 */
 
 *{
@@ -35,7 +35,7 @@ a{
 	right: 80px;
 }
 
-.regist{
+.regeLink{
 	width: 50px;
 	height: 18px;
 	line-height: 18px;
@@ -95,8 +95,6 @@ a{
 	bottom: 0;
 	margin: auto;
 
-	width: 400px;
-	height: 300px;
 	background-color: #fff;
 }
 
@@ -123,12 +121,13 @@ a{
 
 /*登录样式*/
 .login{
-	text-align: center;
+	padding: 20px;
 }
 
 .login h4{
 	font-size: 20px;
 	line-height: 50px;
+	text-align: center;
 }
 
 .login label{
@@ -141,10 +140,12 @@ a{
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	padding: 10px 5px;
+
 }
 
 .login .item{
-	margin: 20px auto;
+	margin: 10px auto;
+	float: right;
 }
 
 .login .submit{
@@ -154,8 +155,7 @@ a{
 	padding: 10px 5px;
 	background: #e40;
 	color: #fff;
-	float: right;
-	margin-right: 53px;
+	margin-right: 7px;
 }
 
 .login .error-msg{

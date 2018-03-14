@@ -10,7 +10,7 @@
 		<!-- <button class="login" id="login">登录</button>
 		<button class="regist" id="regist">注册</button> -->
 		<a href="#" class="loginLink" id="loginLink">登录</a>
-		<a href="#" class="regist" id="regist">注册</a>
+		<a href="#" class="regeLink" id="regeLink">注册</a>
 	</div>
 	<div class="back2"></div>
 	<div class="back3"></div>
@@ -27,7 +27,7 @@
 		<!-- 内容区域 -->
 		<div class="layer-content" id="layer-content"></div>
 
-		
+		<!-- 登录 -->
 		<div class="loginHtml" id="loginHtml" style="display: none">
 			<div class="login">
 				<h4 class="title">登 录</h4>
@@ -45,7 +45,29 @@
 				</div>
 			</div>
 		</div>
+		<!-- 注册 -->
+		<div class="regeHtml" id="regeHtml" style="display: none">
+			<div class="login">
+				<h4 class="title">注 册</h4>
+				<div class="item">
+					<label>帐号</label>
+					<input type="text" class="input" id="username" name="username">
+					<p class="error-msg"></p>
+				</div>
+				<div class="item">
+					<label>密码</label>
+					<input type="text" class="input" id="password" name="password">
+				</div>
+				<div class="item">
+					<label>重复密码</label>
+					<input type="text" class="input" id="repassword" name="repassword">
+				</div>
+				<div class="item">
+					<input type="submit" class="submit" id="regeSubmitBtn" value="填好了">
+				</div>
+			</div>
 		</div>
+	</div>
 
 
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
