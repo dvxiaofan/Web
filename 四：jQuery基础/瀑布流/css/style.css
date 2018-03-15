@@ -2,7 +2,7 @@
 * @Author: xiaofan
 * @Date:   2018-03-15 10:31:12
 * @Last Modified by:   xiaofan
-* @Last Modified time: 2018-03-15 10:55:52
+* @Last Modified time: 2018-03-15 14:21:38
 */
 *{
 	margin: 0;
@@ -38,7 +38,7 @@ a:hover{
 #wrap div{
 	float: left;
 	box-sizing: border-box;
-	width: 280px;
+	width: 200px;
 	height: auto;
 	margin: 10px;
 	padding: 10px;
