@@ -1,0 +1,80 @@
+/*
+* @Author: xiaofan
+* @Date:   2018-03-15 10:31:12
+* @Last Modified by:   xiaofan
+* @Last Modified time: 2018-03-15 10:55:52
+*/
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body{
+	background: #ddd;
+}
+
+img{
+	border: none;
+}
+
+a{
+	text-decoration: none;
+	color: #444;
+}
+
+a:hover{
+	color: #999;
+}
+
+/*wrap*/
+#wrap{
+	position: relative;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+
+#wrap div{
+	float: left;
+	box-sizing: border-box;
+	width: 280px;
+	height: auto;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	background: #fff;
+}
+
+#wrap div img{
+	width: 100%;
+}
+
+#wrap div a{
+	display: block;
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,7 +2,7 @@
 * @Author: xiaofan
 * @Date:   2018-03-14 15:57:11
 * @Last Modified by:   xiaofan
-* @Last Modified time: 2018-03-14 21:03:35
+* @Last Modified time: 2018-03-14 22:00:12
 */
 $(document).ready(function ($) {
 	$('#loginLink').click(function () {
@@ -19,7 +19,7 @@ $(document).ready(function ($) {
 			} else {
 				$(".error-msg").html("账号或密码输入错误");
 			}
-		})
+		}) 
 	})
 
 	$('#regeLink').click(function () {
