@@ -2,7 +2,7 @@
 * @Author: xiaofan
 * @Date:   2018-03-15 10:31:35
 * @Last Modified by:   xiaofan
-* @Last Modified time: 2018-03-15 17:31:16
+* @Last Modified time: 2018-03-16 16:40:23
 */
 
 // function waterfall(wrap, boxes) {
@@ -102,23 +102,18 @@ var waterfall = function (wrap, boxes) {
 		if (i < colsNum) {
 			everyHeight[i] = boxes.eq(i).height() + 40;
 		} else{
+			// 获得最小列高度
 			var minHeight = Math.min.apply(null, everyHeight);
+			// 获得最小列索引
 			var minIndex = getIndex(minHeight, everyHeight);
-
+			// 设置样式
 			setStyle(boxes.eq(i), minHeight, boxes.eq(minIndex).position().left, i)
 
-			// boxes.eq(i).css({
-			// 	'position': "absolute",
-			// 	'left': boxes.eq(minIndex).position().left,
-			// 	'top': minHeight,
-			// 	'opacity': '0'
-			// }).stop().animate({
-			// 	'opacity' : '1'
-			// }, 1000);
-
+			// 更新最小列高度
 			everyHeight[minIndex] += boxes.eq(i).height() + 40;
 		}
 
+		// 鼠标经过呈现半透明样式
 		boxes.eq(i).hover(function (event) {
 			$(this).stop().animate({
 				'opacity' : '0.5'
