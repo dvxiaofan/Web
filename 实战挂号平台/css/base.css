@@ -2,7 +2,7 @@
 * @Author: xiaofan
 * @Date:   2018-03-19 14:11:19
 * @Last Modified by:   xiaofan
-* @Last Modified time: 2018-03-19 15:02:05
+* @Last Modified time: 2018-03-19 15:57:32
 */
 
 p{
@@ -13,6 +13,11 @@ p{
 
 a{
 	text-decoration: none;
+}
+
+select, input{
+	border: none;
+	outline: none;
 }
 
 .top{
@@ -78,6 +83,7 @@ a{
 	padding-right: 30px;
 	background-color: #1fa4f0;
 	position: relative;
+	cursor: pointer;
 }
 
 .nav .menu .menu-list{
@@ -91,6 +97,86 @@ a{
 
 .nav .right{
 	float: right;
+}
+
+/*banner*/
+.banner-search{
+	background-color: #fafafa;
+}
+
+.banner-help .caption,
+.banner-search .caption{
+	height: 22px;
+	/*padding: 15px 0;*/
+	padding: 15px 0 15px 0;
+	text-align: center;
+}
+
+.banner-help .caption .text,
+.banner-search .caption .text{
+	display: inline-block;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	padding-left: 28px;
+	font-size: 16px;
+	color: #fecd09;
+	background: url(../img/quai.png) no-repeat center left;
+}
+
+.banner-search .form {
+	height: 150px;
+}
+
+.banner-search .form .line{
+	padding-bottom: 9px;
+	text-align: center;
+}
+
+.banner-search .form .line select{
+	width: 170px;
+	font-size: 12px;
+	z-index: 0;
+	border: 1px solid #dcdddd;
+	height: 26px;
+	line-height: 26px;
+	padding: 2px 0;
+	color: #666;
+}
+
+.banner-search .sumbit{
+	height: 32px;
+	text-align: center;
+	color: #fff;
+}
+
+.banner-search .sumbit .button{
+	width: 108px;
+	height: 32px;
+	background-color: #fecd09;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.banner-help{
+	background-color: #fafafa;
+}
+
+.banner-help .caption .text{
+	color: #00b3ea;
+	background: url(../img/help.png) no-repeat center left;
+}
+
+.banner-help .link{
+	color: #00b3ea;
+	display: inline-block;
+	width: 86px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+	text-align: center;
+	padding: 0 0 8px 26px;
 }
 
 
