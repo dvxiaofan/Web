@@ -1,0 +1,117 @@
+/*
+* @Author: xiaofan
+* @Date:   2018-03-19 14:11:19
+* @Last Modified by:   xiaofan
+* @Last Modified time: 2018-03-19 15:02:05
+*/
+
+p{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+}
+
+.top{
+	line-height: 30px;
+	font-size: 13px;
+	color: #868686;
+}
+
+.top .call{
+	float: left;
+	padding-left: 20px;
+	background: url(../img/call.png) no-repeat center left;
+}
+
+.top .welcome{
+	float: right;
+}
+
+.top a{
+	color: #5bb8e8;
+	padding-left: 10px;
+}
+
+/*导航部分*/
+.header .logo{
+	width: 403px;
+	height: 74px;
+	padding: 9px 0;
+	display: inline-block;
+}
+
+.header img{
+	width: 100%;
+	height: 100%;
+}
+
+.header .search{
+	width: 326px;
+	height: 38px;
+	position: absolute;
+	right: 0px;
+	top: 29px;
+	background-color: orange;
+}
+
+.link {
+	display: inline-block;
+	float: left;
+	padding-left: 30px;
+	line-height: 36px;
+	color: #fff;
+	font-size: 16px;
+	min-width: 80px;
+	text-align: center;
+}
+
+.nav a:hover{
+	color: #d7f3ff;
+}
+
+.nav .menu{
+	width: 130px;
+	padding-right: 30px;
+	background-color: #1fa4f0;
+	position: relative;
+}
+
+.nav .menu .menu-list{
+	background-color: #1fa4f0;
+	width: 100%;
+	height: 423px;
+	position: absolute;
+	left: 0;
+	top: 36px;
+}
+
+.nav .right{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
