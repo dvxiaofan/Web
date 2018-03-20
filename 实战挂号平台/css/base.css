@@ -2,7 +2,7 @@
 * @Author: xiaofan
 * @Date:   2018-03-19 14:11:19
 * @Last Modified by:   xiaofan
-* @Last Modified time: 2018-03-19 15:57:32
+* @Last Modified time: 2018-03-20 14:08:08
 */
 
 p{
@@ -63,7 +63,23 @@ select, input{
 	background-color: orange;
 }
 
-.link {
+.header .search .option{
+	padding-left: 10px;
+}
+
+.header .search .option .text{
+	font-size: 16px;
+	height: 38px;
+	line-height: 38px;
+	color: #fff;
+	text-align: center;
+}
+
+.header .search .sbox{
+	background-color: #ff0;
+}
+
+.nav .link {
 	display: inline-block;
 	float: left;
 	padding-left: 30px;
@@ -159,6 +175,10 @@ select, input{
 	border-radius: 3px;
 }
 
+.banner-search .sumbit .button:hover{
+	background-color: #ff0;
+}
+
 .banner-help{
 	background-color: #fafafa;
 }
@@ -177,6 +197,53 @@ select, input{
 	font-size: 14px;
 	text-align: center;
 	padding: 0 0 8px 26px;
+}
+
+/*content内容*/
+.content-close,
+.content-news{
+	background-color: #fff;
+	border: 1px solid #f4f6fa;
+}
+
+.content-close .caption,
+.content-news .caption{
+	background-color: #f4f6fa;
+	height: 38px;
+	line-height: 38px;
+	font-size: 16px;
+	color: #fec009;
+	text-indent: 20px;
+}
+
+.content-close .more,
+.content-news .more{
+	float: right;
+	padding-right: 21px;
+	font-size: 12px;
+	color: #868686;
+}
+
+.content-close .list,
+.content-news .list{
+	padding: 15px 20px 13px 35px;
+	line-height: 29px;
+	font-size: 12px;
+	background: url(../img/bg001.png) 1px 5px no-repeat;
+}
+
+.content-close .list .link,
+.content-news .list .link{
+	display: block;
+	color: #969696;
+}
+
+.content-close .caption{
+	color: #24b6f3;
+}
+
+.content-close .list{
+	background: url(../img/bg002.png) 1px 9px no-repeat;
 }
 
 
