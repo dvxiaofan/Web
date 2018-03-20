@@ -1,0 +1,90 @@
+/*
+* @Author: xiaofan
+* @Date:   2018-03-20 16:13:49
+* @Last Modified by:   xiaofan
+* @Last Modified time: 2018-03-20 16:52:15
+*/
+
+.ui-search{
+	background: url(../img/searchbg.png) no-repeat center;
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+}
+
+.ui-search-selected{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70px;
+	height: 38px;
+	line-height: 38px;
+	text-indent: 14px;
+}
+
+.ui-search-selected-list{
+	position: absolute;
+	left: 2px;
+	top: 36px;
+	width: 67px;
+	line-height: 24px;
+	background-color: #fff;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+	z-index: 2;
+}
+
+.ui-search-selected-list a{
+	display: block;
+	text-align: center;
+	color: #a5a2a2;
+}
+
+.ui-search-selected-list a:hover{
+	background-color: #ebeef5;
+}
+
+.ui-search-input{
+	width: 208px;
+	height: 26px;
+	line-height: 26px;
+	position: absolute;
+	top: 5px;
+	left: 73px;
+	font-size: 13px;
+	color: #a5a2a2;
+}
+
+.ui-search-submit{
+	display: block;
+	width: 40px;
+	height: 36px;
+	position: absolute;
+	top: 1px;
+	right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

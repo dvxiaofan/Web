@@ -2,7 +2,7 @@
 * @Author: xiaofan
 * @Date:   2018-03-19 14:11:19
 * @Last Modified by:   xiaofan
-* @Last Modified time: 2018-03-20 16:02:22
+* @Last Modified time: 2018-03-20 16:31:20
 */
 
 p{
@@ -60,7 +60,7 @@ select, input{
 	position: absolute;
 	right: 0px;
 	top: 29px;
-	background-color: orange;
+	/*background-color: orange;*/
 }
 
 .header .search .option{

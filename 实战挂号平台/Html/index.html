@@ -5,6 +5,8 @@
 	<title>挂号</title>
 	<link rel="stylesheet" href="../css/layout.css">
 	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/ui.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 </head>
 <body>
 	<!-- 顶部 -->
@@ -26,14 +28,16 @@
 			<a href="#" class="logo">
 				<img src="../img/logo.png">
 			</a>
-			<div class="search" id="search">
-				<form name="search" class="option">
-						<span class="text" id="name">医院</span>
-				</form>
+			<div class="search ui-search" id="search">
+				<div class="ui-search-selected">医院</div>
+				<div class="ui-search-selected-list">
+					<a href="#2">疾病</a>
+					<a href="#2">科室</a>
+					<a href="#2">医院</a>
+				</div>
+				<input type="text" class="ui-search-input" name="search-content" placeholder="请输入查找内容">
+				<a href="#" class="ui-search-submit" id="ui-search-submit">&nbsp;</a>
 			</div>
-			<!-- <div class="sbox">
-				<input type="text" value="请输入搜索内容" class="">
-			</div> -->
 		</div>
 	</div>
 	
@@ -194,8 +198,8 @@
 
 
 
-	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<script src="../js/index.js"></script>
+	<script src="../js/ui.js"></script>
 </body>
 </html>
 
