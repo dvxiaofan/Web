@@ -2,7 +2,7 @@
 * @Author: xiaofan
 * @Date:   2018-03-16 17:01:30
 * @Last Modified by:   xiaofan
-* @Last Modified time: 2018-03-20 15:52:05
+* @Last Modified time: 2018-03-21 16:47:55
 */
 *{
 	margin: 0;
@@ -70,7 +70,7 @@
 	padding: 10px 0 38px 0;
 }
 
-.content-tap{
+.content-tab{
 	width: 742px;
 	height: 490px;
 	float: left;

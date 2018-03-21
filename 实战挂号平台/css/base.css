@@ -2,7 +2,7 @@
 * @Author: xiaofan
 * @Date:   2018-03-19 14:11:19
 * @Last Modified by:   xiaofan
-* @Last Modified time: 2018-03-20 16:31:20
+* @Last Modified time: 2018-03-21 16:48:04
 */
 
 p{
@@ -247,17 +247,17 @@ select, input{
 }
 
 /*content-tab*/
-.content-tap{
+.content-tab{
 	background: none;
 }
 
-.content-tap .caption{
+.content-tab .caption{
 	height: 34px;
 	line-height: 34px;
 	background-color: #f4f6fb;
 }
 
-.content-tap .caption .item{
+.content-tab .caption .item{
 	display: block;
 	float: left;
 	width: 112px;
@@ -266,29 +266,29 @@ select, input{
 	color: #00b3f1;
 }
 
-.content-tap .caption .item_focus{
+.content-tab .caption .item_focus{
 	background-color: #41bef8;
 	color: #f9ffff;
 }
 
-.content-tap .block{
+.content-tab .block{
 	border: 1px solid #f4f6fa;
 	height: 452px;
 }
 
-.content-tap .block .item{
+.content-tab .block .item{
 	height: 45px;
 	line-height: 45px;
 }
 
-.content-tap .block-caption{
+.content-tab .block-caption{
 	height: 26px;
 	line-height: 26px;
 	padding: 8px;
 	border-bottom: 1px solid #f4f6fa;
 }
 
-.content-tap .block-cap-item{
+.content-tab .block-cap-item{
 	display: block;
 	padding: 0 10px 0 10px;
 	float: left;
@@ -296,12 +296,12 @@ select, input{
 	color: #000;
 }
 
-.content-tap .block_item_focus{
+.content-tab .block_item_focus{
 	background-color: #41bef8;
 	color: #f9ffff;
 }
 
-.content-tap .block-content .block-more{
+.content-tab .block-content .block-more{
 	display: block;
 	line-height: 55px;
 	text-align: center;
@@ -309,9 +309,9 @@ select, input{
 	font-size: 14px;
 }
 
-.content-tap .block-content .block-cont-list{}
+.content-tab .block-content .block-cont-list{}
 
-.content-tap .block-content .block-cont-list .b-item{
+.content-tab .block-content .block-cont-list .b-item{
 	float: left;
 	width: 216px;
 	height: 102px;
@@ -320,7 +320,7 @@ select, input{
 	font-size: 12px;
 }
 
-.content-tap .block-content .block-cont-list .b-item img{
+.content-tab .block-content .block-cont-list .b-item img{
 	width: 110px;
 	height: 98px;
 	position: absolute;
@@ -328,30 +328,30 @@ select, input{
 	left: 0;
 }
 
-.content-tap .block-content .block-cont-list .b-item .item-name{
+.content-tab .block-content .block-cont-list .b-item .item-name{
 	color: #036eb7;
 	font-size: 14px;
 	line-height: 21px;
 	padding-top: 13px;
 }
 
-.content-tap .block-content .block-text-list .level,
-.content-tap .block-content .block-cont-list .b-item .item-level{
+.content-tab .block-content .block-text-list .level,
+.content-tab .block-content .block-cont-list .b-item .item-level{
 	float: right;
 	font-size: 12px;
 	color: #979797;
 }
 
-.content-tap .block-content .block-cont-list .b-item .item-phone,
-.content-tap .block-content .block-cont-list .b-item .item-add{
+.content-tab .block-content .block-cont-list .b-item .item-phone,
+.content-tab .block-content .block-cont-list .b-item .item-add{
 	line-height: 18px;
 	padding-bottom: 4px;
 	color: #666;
 }
 
-.content-tap .block-content .block-text-list{}
+.content-tab .block-content .block-text-list{}
 
-.content-tap .block-content .block-text-list .text-item{
+.content-tab .block-content .block-text-list .text-item{
 	display: block;
 	width: 351px;
 	height: 27px;
@@ -363,7 +363,7 @@ select, input{
 	border-bottom: 1px dashed #dcdddd;
 }
 
-.content-tap .block-content .block-text-list .text-item:nth-child(2n){
+.content-tab .block-content .block-text-list .text-item:nth-child(2n){
 	margin-left: 13px;
 }
 

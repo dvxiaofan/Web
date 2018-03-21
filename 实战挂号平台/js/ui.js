@@ -2,7 +2,7 @@
 * @Author: xiaofan
 * @Date:   2018-03-20 16:14:13
 * @Last Modified by:   xiaofan
-* @Last Modified time: 2018-03-21 12:37:07
+* @Last Modified time: 2018-03-21 17:17:37
 */
 
 // ui-search 定义
@@ -23,9 +23,36 @@ $.fn.Uisearch = function () {
 	})
 }
 
+// ui-tab
+
+/**
+*	@param {string} header tab组件 所有选项卡 item
+*	@param {string} content tab组件 内容区域  item
+	@param {string} focus_prefix 选项卡高亮样式前缀 可选
+*/
+
+$.fn.UiTab = function (header, content, focus_prefix) {
+	var ui = $(this);
+	var tabs = $(header, ui);
+	var cons = $(content, ui);
+	var focus_prefix = focus_prefix || '';
+
+	tabs.on('click', function () {
+		var index = $(this).index();
+
+		tabs.removeClass(focus_prefix + 'item_focus').eq(index).addClass(focus_prefix + 'item_focus');
+		cons.hide().eq(index).show();
+
+		return false;
+	})
+}
+
 // 页面脚本逻辑
 $(function () {
 	$('.ui-search').Uisearch();
+
+	$('.content-tab').UiTab('.caption > .item', '.block > .item');
+	$('.content-tab .block .item').UiTab('.block-caption > a', '.block-content > .block-wrap', 'block_');
 })
 
 
