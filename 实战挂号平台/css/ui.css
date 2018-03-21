@@ -2,7 +2,7 @@
 * @Author: xiaofan
 * @Date:   2018-03-20 16:13:49
 * @Last Modified by:   xiaofan
-* @Last Modified time: 2018-03-20 16:52:15
+* @Last Modified time: 2018-03-21 12:31:19
 */
 
 .ui-search{
@@ -23,6 +23,7 @@
 }
 
 .ui-search-selected-list{
+	display: none;
 	position: absolute;
 	left: 2px;
 	top: 36px;
