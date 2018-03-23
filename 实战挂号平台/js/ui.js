@@ -2,7 +2,7 @@
 * @Author: xiaofan
 * @Date:   2018-03-20 16:14:13
 * @Last Modified by:   xiaofan
-* @Last Modified time: 2018-03-22 17:06:56
+* @Last Modified time: 2018-03-23 16:06:34
 */
 
 // ui-search 定义
@@ -94,18 +94,48 @@ $.fn.UiSlider = function () {
 	var current = 0;
 	var size = items.size();
 	var width = items.eq(0).width();
+	var enableAuto = true;
+
+	// 设置自动感应， 如果鼠标在wrap上， 就不用自动滚动
+	ui
+	.on('mouseover',function () {
+		enableAuto = false;
+	})
+	.on('mouseout',function () {
+		enableAuto = true;
+	})
 
 	// 具体操作
 	wrap
 	.on('move_prev',function () {
-		console.log("prev")
+
+		if (current == 0) {
+			current = size;
+		}
+
+		current = current - 1;
+
+		wrap.triggerHandler('move_to', current);
 	})
 	.on('move_next',function () {
-		console.log("next")
+
+		if (current >= size-1) {
+			current = -1;
+		}
+		current = current + 1;
+
+		wrap.triggerHandler('move_to', current);
 	})
 	.on('move_to',function (evt, index) {
 		wrap.css('left', index*width*-1);
+		tips.removeClass('item_focus').eq(index).addClass('item_focus');
 	})
+	.on('auto_move',function () {
+		setInterval(function () {
+			enableAuto && wrap.triggerHandler('move_next');	
+		},2000);
+	})
+	.triggerHandler('auto_move');
 
 	// 事件
 	btn_prev.on('click', function () {
