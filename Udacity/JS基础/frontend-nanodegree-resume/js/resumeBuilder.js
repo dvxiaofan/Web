@@ -26,6 +26,17 @@ var name = "张艳坤"
  $("#header").prepend(formattedRole);
  $("#header").prepend(formattedName);
 
+ var skills = ["awesomeness", "programming", "teaching", "JS"];
+ // $("#main").append(skills[2]);
+
+ var bio = {
+ 	"name": "xiaofan",
+ 	"age": 28,
+ 	"skills": skills
+ };
+
+ $("#main").append(bio.age)
+
 
 
 
