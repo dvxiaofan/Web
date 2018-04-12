@@ -17,7 +17,7 @@ This is empty on purpose! Your code to build the resume will go here.
 
 var name = "张艳坤"
  var formattedName = HTMLheaderName.replace("%data%", name);
- var role = "Web前端开发工程师";
+ var role = "Web前端开发";
  var formattedRole = HTMLheaderRole.replace("%data%", role);
 
  // $("#header").append(formattedName);
@@ -32,10 +32,23 @@ var name = "张艳坤"
  var bio = {
  	"name": "xiaofan",
  	"age": 28,
- 	"skills": skills
+ 	"role": "Web developer",
+ 	"contacts":{
+ 		"mobile": "12352355",
+ 		"email": "zhyk1023@163.com"
+ 	},
+ 	"welcomeMsg": "welcome to my page",
+ 	"skills": [
+ 	    "awesomeness", "programming", "teaching", "JS"
+ 	],
+ 	"pictureURL": "",
  };
 
- $("#main").append(bio.age)
+ // $("#main").append(bio.role)
+ // $("#main").append(bio.contacts.email)
+ // $("#main").append(bio.skills)
+
+
 
 
 
