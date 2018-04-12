@@ -2,7 +2,7 @@
 * @Author: xiaofan
 * @Date:   2018-04-10 19:00:10
 * @Last Modified by:   xiaofan
-* @Last Modified time: 2018-04-12 10:24:51
+* @Last Modified time: 2018-04-12 23:02:35
 */
 
 
@@ -69,22 +69,57 @@
 // console.log(produce);
 
 
-function average(...nums) {
-	let total = 0;
-    for(const num of nums) {
-    	total += num;
-    }
-    if (nums.length == 0) {
-    	return 0;
-    }
-    return (total/nums.length);
-}
+// function average(...nums) {
+// 	let total = 0;
+//     for(const num of nums) {
+//     	total += num;
+//     }
+//     if (nums.length == 0) {
+//     	return 0;
+//     }
+//     return (total/nums.length);
+// }
 
-console.log(average(2, 6));
-console.log(average(2, 3, 3, 5, 7, 10));
-console.log(average(7, 1432, 12, 13, 100));
-console.log(average());
+// console.log(average(2, 6));
+// console.log(average(2, 3, 3, 5, 7, 10));
+// console.log(average(7, 1432, 12, 13, 100));
+// console.log(average());
 
+
+// const greet = name => 'hello ${name}!';
+
+// console.log(greet('xiaofan'));
+
+// greet('xiaofan')
+
+// const sayHi = () => console.log("hello xiaofan");
+
+// sayHi()
+
+// const orderIceCream = (flavor, cone) => console.log(`here is your ${flavor} ice cream in a ${cone} cone`);
+
+// orderIceCream('chocolate', 'waffle');
+
+
+// setTimeOut(()=>{
+// 	console.log('starting');
+// 	test.start();
+// },2000);
+
+// const upperizedNames = ['Farrin', 'Kagure', 'Asser'].map( name => {
+//   name = name.toUpperCase();
+//   return `${name} has ${name.length} characters in their name`;
+// });
+
+
+// const squares = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(function(square) {
+// 	return square * square;
+// });
+
+const squares = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(
+	square => square * square);
+
+console.log(...squares);
 
 
 
